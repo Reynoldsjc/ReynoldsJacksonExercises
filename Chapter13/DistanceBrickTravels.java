@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class DistanceBrickTravels {
     public static void main(String[] args) {
 
-        String enterSeconds;
+        String enterSeconds;=
         enterSeconds = new String("Enter the number of seconds: ");
         Scanner scan = new Scanner(System.in);
         System.out.println(enterSeconds);
