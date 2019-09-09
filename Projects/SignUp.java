@@ -31,6 +31,7 @@ public static void main(String[] args) {
         System.out.println(signUpPassword);
         String inData1 = scanPassword.nextLine();
         }
+        if()
 
          
         
