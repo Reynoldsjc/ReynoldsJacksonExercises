@@ -20,10 +20,89 @@ public class Lifespan {
         String inData2 = scan.nextLine();
         Integer day = Integer.parseInt(inData2);
 
-        double totalDaysAlive = (year * 365) + (month * 30) + day;
+        if(month == 1) {
+         double totalDaysAlive = (year * 365) + 31 + day;
         double ageSeconds = totalDaysAlive * 24 * 60 * 60;
         double percentLifespan = (ageSeconds / 2.5E9) * 100;
         System.out.println("You have lived approximately " + percentLifespan + " percent of your life");
+        }
 
+        else if(month == 2) {
+         double totalDaysAlive = (year * 365) + 31 + 28 + day;
+        double ageSeconds = totalDaysAlive * 24 * 60 * 60;
+        double percentLifespan = (ageSeconds / 2.5E9) * 100;
+        System.out.println("You have lived approximately " + percentLifespan + " percent of your life");
+        }
+
+        else if(month == 3) {
+         double totalDaysAlive = (year * 365) + 31 + 28 + 31 + day;
+        double ageSeconds = totalDaysAlive * 24 * 60 * 60;
+        double percentLifespan = (ageSeconds / 2.5E9) * 100;
+        System.out.println("You have lived approximately " + percentLifespan + " percent of your life");
+        }
+
+        else if(month == 4) {
+         double totalDaysAlive = (year * 365) + 31 + 28 + 31 + 30 + day;
+        double ageSeconds = totalDaysAlive * 24 * 60 * 60;
+        double percentLifespan = (ageSeconds / 2.5E9) * 100;
+        System.out.println("You have lived approximately " + percentLifespan + " percent of your life");
+        }
+
+         else if(month == 4) {
+         double totalDaysAlive = (year * 365) + 31 + 28 + 31 + 30 + day;
+        double ageSeconds = totalDaysAlive * 24 * 60 * 60;
+        double percentLifespan = (ageSeconds / 2.5E9) * 100;
+        System.out.println("You have lived approximately " + percentLifespan + " percent of your life");
+        }
+
+        else if(month == 5) {
+         double totalDaysAlive = (year * 365) + 31 + 28 + 31 + 30 + 31 + day;
+        double ageSeconds = totalDaysAlive * 24 * 60 * 60;
+        double percentLifespan = (ageSeconds / 2.5E9) * 100;
+        System.out.println("You have lived approximately " + percentLifespan + " percent of your life");
+        }
+
+         else if(month == 6) {
+         double totalDaysAlive = (year * 365) + 31 + 28 + 31 + 30 + 31 + 30 + day;
+        double ageSeconds = totalDaysAlive * 24 * 60 * 60;
+        double percentLifespan = (ageSeconds / 2.5E9) * 100;
+        System.out.println("You have lived approximately " + percentLifespan + " percent of your life");
+        }
+
+        else if(month == 7) {
+         double totalDaysAlive = (year * 365) + 31 + 28 + 31 + 30 + 31 + 30 + 31 + day;
+        double ageSeconds = totalDaysAlive * 24 * 60 * 60;
+        double percentLifespan = (ageSeconds / 2.5E9) * 100;
+        System.out.println("You have lived approximately " + percentLifespan + " percent of your life");
+        }
+
+        else if(month == 8) {
+         double totalDaysAlive = (year * 365) + 31 + 28 + 31 + 30 + 31 + 30 + 31 + 31 + day;
+        double ageSeconds = totalDaysAlive * 24 * 60 * 60;
+        double percentLifespan = (ageSeconds / 2.5E9) * 100;
+        System.out.println("You have lived approximately " + percentLifespan + " percent of your life");
+        }
+
+        else if(month == 9) {
+         double totalDaysAlive = (year * 365) + 31 + 28 + 31 + 30 + 31 + 30 + 31 + 31 + 30 + day;
+        double ageSeconds = totalDaysAlive * 24 * 60 * 60;
+        double percentLifespan = (ageSeconds / 2.5E9) * 100;
+        System.out.println("You have lived approximately " + percentLifespan + " percent of your life");
+        }
+
+         else if(month == 10) {
+         double totalDaysAlive = (year * 365) + 31 + 28 + 31 + 30 + 31 + 30 + 31 + 31 + 30 + 31 + day;
+        double ageSeconds = totalDaysAlive * 24 * 60 * 60;
+        double percentLifespan = (ageSeconds / 2.5E9) * 100;
+        System.out.println("You have lived approximately " + percentLifespan + " percent of your life");
+        }
+        else if(month == 11) {
+         double totalDaysAlive = (year * 365) + 31 + 28 + 31 + 30 + 31 + 30 + 31 + 31 + 30 + 31 + 30 + day;
+        double ageSeconds = totalDaysAlive * 24 * 60 * 60;
+        double percentLifespan = (ageSeconds / 2.5E9) * 100;
+        System.out.println("You have lived approximately " + percentLifespan + " percent of your life");
+        }
+        else
+        System.out.println("You must be dead!");
     }
 }
