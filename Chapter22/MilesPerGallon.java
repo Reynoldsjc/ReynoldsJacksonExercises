@@ -22,7 +22,7 @@ public class MilesPerGallon
 
         double mpg = (finalmiles - initialmiles) / gallons;
 
-        System.out.println("Ayeeeeee your mpg is " + mpg);
+        System.out.println("Your mpg is " + mpg);
 
       } else{
         System.out.println("bye");
