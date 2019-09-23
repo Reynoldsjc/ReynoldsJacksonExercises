@@ -7,13 +7,13 @@ public class AddingUpIntegers{
         Integer totalIntegers = Integer.parseInt(integer.nextLine());
         int sum = 0;
 
-        while(totalIntegers>0){
+        while(totalIntegers > 0){
             System.out.println("Enter an Integer:");
             Integer newInt= Integer.parseInt(integer.nextLine());
             sum = sum + newInt;
             totalIntegers--;
         }
-        System.out.println("The sum is "+sum);
+        System.out.println("The sum is " + sum);
 
     }
 }
