@@ -24,7 +24,7 @@ public class eToTheX {
 			n += 1;
 		}
 		System.out.println("My e to the x: " + sum);
-		System.out.println("Forreal e to the x: " + Math.exp(x));
+		System.out.println("The real e to the x: " + Math.exp(x));
 
 	}
 }
